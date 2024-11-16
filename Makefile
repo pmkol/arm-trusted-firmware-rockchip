@@ -10,7 +10,7 @@ PKG_VERSION:=20240222
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
-PKG_SOURCE_URL:=https://github.com/sbwml/arm-trusted-firmware-rockchip/releases/download/$(PKG_VERSION)/
+PKG_SOURCE_URL:=https://github.com/pmkol/arm-trusted-firmware-rockchip/releases/download/$(PKG_VERSION)/
 PKG_HASH:=0983908c66c453a658241f2743806d1c8a4fe115dd24105f8dad89b8d16ef1d6
 
 include $(INCLUDE_DIR)/package.mk
